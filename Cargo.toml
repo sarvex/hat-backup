@@ -43,7 +43,7 @@ version = "*"
 [dependencies.diesel]
 default-features = false
 features = ["sqlite", "chrono"]
-version = "^0.14.0"
+version = "^1.4.6"
 
 [dependencies.diesel_codegen]
 default-features = false
