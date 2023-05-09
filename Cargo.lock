@@ -76,12 +76,18 @@ checksum = "ff81738b726f5d099632ceaffe7fb65b90212e8dce59d518729e7e8634032d3d"
 
 [[package]]
 name = "capnp"
-version = "0.8.10"
+version = "0.8.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c42526d461a93d8a990f30ba51245b6b46c0ed1a761133d2e4fe5b47a9527a45"
+checksum = "6565c3d71656d15ecd36ed98ad769de1fd55c990a426f4c865f80ace97aa1162"
 dependencies = [
  "byteorder",
 ]
+
+[[package]]
+name = "capnp"
+version = "0.13.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "458fe65c8ae2c09ebe6658d3b98a1dd672efda0d7ad73ebd69c4a351abd96ef6"
 
 [[package]]
 name = "capnpc"
@@ -89,7 +95,7 @@ version = "0.8.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "fd1f714f4d68b673e31a78d6f5f077ed8baba1b10b7580251069b61163fccf41"
 dependencies = [
- "capnp",
+ "capnp 0.8.17",
 ]
 
 [[package]]
@@ -229,7 +235,7 @@ dependencies = [
  "argon2rs",
  "arrayref",
  "byteorder",
- "capnp",
+ "capnp 0.13.7",
  "capnpc",
  "chrono",
  "clap",
